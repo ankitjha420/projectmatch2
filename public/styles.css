@@ -1,0 +1,138 @@
+html, body{
+    margin: 0;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+body{
+    background-color: #a7a7a7;
+    font-family: 'Nunito', sans-serif;
+}
+
+#root{
+border: 2px solid;
+position: relative;
+height: 100vh;
+width: 100vw;
+}
+
+/* NAVBAR STYLES */
+
+.navbar{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.homepageLogo{
+    font-size: 36px;
+    min-width: 700px;
+    font-weight: 700;
+}
+
+.navLinks{
+    padding-top: 0.5rem;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    list-style-type: none;
+}
+
+.navLinks li{
+    margin-right: 150px;
+}
+.navLinks li:hover{
+    border-bottom: 5px solid black;
+    
+}
+
+.navLinks :nth-child(3){
+    margin-right: 0;
+}
+
+
+
+/*  HERO SECTION */
+
+.heroSection{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.heroText{
+    margin: 0;
+    padding: 0;
+    line-height: 90px;
+}
+
+/*  HOMEPAGE BUTTON STYLING */  
+
+.CTAHomePage{
+    background-color: black;
+    color: white;
+    width: 15rem;
+    height: 5rem;
+    font-size: 36px;
+    border-radius: 10px;
+    margin-top: 2.5rem;
+}
+.CTAHomePage:hover{
+    color: yellow;
+}
+
+/*  ANIMATION  */   
+.lottieContainer{
+    display: inline;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+
+
+/* LOGIN BOX STYLES */
+
+.LoginBox{
+    margin-left: 250px;
+    padding-bottom: 50px;
+    max-width: 600px;
+    margin-top: 7rem;
+}
+
+.LoginBoxButton{
+    height: 5rem;
+    width: 20rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #4285F4;
+    position: relative;
+    right: 3rem;
+}
+
+.googleIcon{
+    z-index: 2;
+    margin: 0;
+    position: relative;
+    top: 1rem;
+    left: 0.5rem;
+}
+
+.loginPageLottie{
+    height: 400px;
+    width: 500px;
+    z-index: 2;
+    position: relative;
+    bottom: 20rem;
+    left: 40rem;
+}
